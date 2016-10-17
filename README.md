@@ -10,6 +10,11 @@
 
 本是首发－[http://weappdev.com/](http://weappdev.com/)
 
+## 截图
+
+![第一天框架及首页](screenshoot/fenda1.gif)
+
+
 # 仿制分答
 
 ## 目标 TODO
@@ -41,3 +46,4 @@
  * 第一天开发：微信小程序“分答”－基本框架的搭建及首页UI制作 
 
  * 持续更新
+
