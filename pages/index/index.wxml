@@ -1,0 +1,32 @@
+
+
+<!--使用问题列表单项模版-->
+<import src="/templates/question.wxml"/>
+
+
+<!-- loading模块 -->
+<loading hidden="{{hidden}}">
+    加载中...
+</loading>
+
+<!-- 顶部切换 -->
+<view class="swiper-tab">
+    <view class="swiper-tab-list swiper-left {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">问题榜</view>
+    <view class="swiper-tab-list swiper-right {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">悬赏</view>
+</view>
+
+<!--广告模块TODO: image属性的自适应-->
+<view id="banner">
+    <image class="banner" mode="aspectFit" src="/images/test-ad.jpg" /> 
+</view>
+
+<!-- 问题列表-->
+<view>
+    <!--嵌套模版-->
+     <block wx:for="{{questions}}" wx:for-item="question">
+         <template is="question" data="{{question}}"/>
+    </block>
+</view>
+
+
+
