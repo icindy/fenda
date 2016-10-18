@@ -12,3 +12,12 @@ page{
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+/*fd 公用css*/
+
+.fb-btn {
+  background-color: #f85f48 !important;
+  color: white !important;
+  border: none !important;
+
+}

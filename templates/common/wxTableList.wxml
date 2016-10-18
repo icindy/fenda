@@ -1,0 +1,35 @@
+<!--
+  伪造类iOS tableView
+  index: int
+  msg: string
+  time: string
+-->
+<template name="wxTableList">
+    <view>
+        <!--wxTableListTop
+        - 放置上拉刷新等
+        -->
+        <view class="wxTableListTop">
+            wxTableListTop
+        </view>
+
+        <view class="wxTableListHeader">
+            {{test}}
+        </view>
+
+        <view class="wxTableListBody">
+            wxTableListBody
+        </view>
+
+        <view class="wxTableListfooter">
+            wxTableListfooter
+        </view>
+
+        <!--wxTableListTop
+        - 放置下拉加载等
+        -->
+        <view class="wxTableListBottom">
+            wxTableListBottom
+        </view>
+    </view>
+</template>
