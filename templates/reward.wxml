@@ -1,0 +1,32 @@
+<!--
+  为悬赏列表提供相关模版
+  index: int
+  msg: string
+  time: string
+-->
+<template name="reward">
+        <view class="a-reward">
+            <view class="reward-header">
+                <view class="user">
+                    <image class="user-avatar" src="/images/test-ad.jpg" />
+                    <text class="user-nickname">搬砖工｜搬砖的</text>
+                </view>
+                <view class="offer">
+                    <text>¥</text>
+                    <text>50</text>
+                </view>
+            </view>
+
+            <view class="">
+                <view class="reward-body">如何锻炼自己不胡思乱想，脱离神经衰弱，迅速入睡？</view>
+                <view class="reward-footer">
+                    <view class="status">
+                        <text>悬赏成功</text>
+                        <text class="answers">10个回答免费听</text>
+                    </view>
+                    
+                </view>
+            </view>
+
+        </view>
+</template>
