@@ -46,7 +46,9 @@
     </view>
 
     <view class="rewards">
-        <template is="reward" />
+        <block wx:for="{{rewardsCurrentTab==0 ? rewardeds:rewardings}}" wx:for-item="reward">
+            <template is="reward" data="{{reward}}"/>
+        </block>
     </view>
     
 
