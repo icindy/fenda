@@ -23,7 +23,6 @@ Page({
     // 顶部切换
     currentTab: 0,//0为问题榜 1为悬赏
     hidden: true,
-    nowRewards: null,
     rewardeds:[{
         id:1,
         status: 1,//0代表正在进行，1代表已经成功

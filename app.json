@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/me/me",
+    "pages/feed/feed",
     "pages/logs/logs"
   ],
   "window":{
@@ -19,7 +20,7 @@
       "pagePath": "pages/index/index",
       "text": "限免"
     }, {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/feed/feed",
       "text": "收听"
     },{
       "pagePath": "pages/index/index",
