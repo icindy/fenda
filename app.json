@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/me/me",
     "pages/feed/feed",
+    "pages/tem/tem",
     "pages/logs/logs"
   ],
   "window":{
@@ -17,6 +18,9 @@
     "borderStyle": "white",
     "backgroundColor": "#ffffff",
     "list": [{
+      "pagePath": "pages/tem/tem",
+      "text": "公共"
+    },{
       "pagePath": "pages/index/index",
       "text": "限免"
     }, {

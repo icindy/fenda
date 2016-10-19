@@ -1,0 +1,69 @@
+
+/*定义公共基础色彩*/
+.fd-color-orange{
+    color: #f85f48;
+}
+.fd-backcolor-orange{
+    background-color: #f85f48;
+}
+
+.fd-color-blue{
+    color: #28aef5;
+}
+
+.fd-backcolor-blue{
+    background-color: #28aef5;
+}
+
+.fd-color-green{
+    color: #1ccda6;
+}
+
+.fd-backcolor-green{
+    background-color: #1ccda6;
+}
+
+.fd-color-black{
+    color: #3f3f3f;
+}
+
+.fd-backcolor-black{
+    background-color: #3f3f3f;
+}
+
+.fd-color-gray{
+    color: #999;
+}
+
+.fd-backcolor-gray{
+    background-color: #999;
+}
+
+/*定义字体大小*/
+.fd-font-large{
+    font: 32rpx;
+}
+.fd-font-middle{
+    font: 28rpx;
+}
+.fd-font-small{
+    font: 24rpx;
+}
+
+/*定义高度*/
+
+.fd-avatar-large{
+    height: 106rpx;
+    width: 106rpx;
+}
+
+.fd-avatar-middle{
+    height:74rpx;
+    width: 74rpx;
+}
+
+.fd-avatar-small{
+    height: 50rpx;
+    width: 50rpx;
+}
+
