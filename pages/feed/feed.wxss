@@ -1,3 +1,4 @@
+@import "/common.wxss";
 .leader{
     
     position: relative;
